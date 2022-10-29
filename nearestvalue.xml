@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Nearest Value to 20"
+       android:textSize="35dp"
+       android:layout_gravity="center"
+       android:textColor="@color/black"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="First Integer"
+        android:textSize="30dp"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:id="@+id/first"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:background="@color/skyblue"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Second Integer"
+        android:textSize="30dp"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:id="@+id/second"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:background="@color/skyblue"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Third Integer"
+        android:textSize="30dp"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:id="@+id/third"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:background="@color/skyblue"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:text="Display nearest value"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/display"
+        android:onClick="cal"
+        android:background="@color/deepskyblue"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        />
+
+
+
+</LinearLayout>
